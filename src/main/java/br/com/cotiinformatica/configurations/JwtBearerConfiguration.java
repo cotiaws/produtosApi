@@ -6,9 +6,10 @@ import org.springframework.context.annotation.Configuration;
 
 import br.com.cotiinformatica.filters.JwtTokenFilter;
 
-@Configuration
+//@Configuration
 public class JwtBearerConfiguration {
 
+	/*
 	@Bean
 	public FilterRegistrationBean<JwtTokenFilter> jwtFilter() {
 		
@@ -21,4 +22,5 @@ public class JwtBearerConfiguration {
 		
 		return filter;
 	}
+	*/
 }
